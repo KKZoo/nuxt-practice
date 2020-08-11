@@ -1,10 +1,19 @@
 <template>
   <div>
+    <div class="header">
+      <h1 class="header">This is First Nuxt.js</h1>
+    </div>
+
     <Nuxt />
   </div>
 </template>
 
 <style>
+.header{
+  color: #fff;
+  background-color: black;
+}
+
 html {
   font-family:
     'Source Sans Pro',
