@@ -1,7 +1,12 @@
 <template>
     <section class="container">
         <div>
-            <p>{{ $store.state.message }}</p>
+            <p v-on:click="$store.commit('updateMessage')">
+                {{ $store.state.message }}
+            </p>
+            <p v-on:click="$store.commit('payloadMessage', 'this is payload')">
+                {{ $store.state.message }}
+            </p>
         </div>
     </section>
 </template>
