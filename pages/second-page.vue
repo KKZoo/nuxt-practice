@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <p>this is second page</p>
-    <p>test text</p>
+    <img src="~/assets/cat.jpg" class="cat-size">
     <hello />
     <page />
   </section>
@@ -20,4 +20,7 @@ export default {
 </script>
 
 <style>
+.cat-size{
+  width: 100px;
+}
 </style>
