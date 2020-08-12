@@ -7,6 +7,7 @@
         <router-link to="second-page">second-page</router-link>
         <router-link to="axios">axios</router-link>
         <router-link to="vuex">vuex</router-link>
+        <router-link to="counter">counter</router-link>
     </section>
 </template>>
 
